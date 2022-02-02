@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.headline,
+.step p:nth-child(1) {
+  background-color: #ff9a4b;
+  color: white;
+}
+
+.step p:nth-child(1) {
+  width: 45px;
+  position: absolute;
+}
+
+.headline {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+main {
+  width: 960px;
+  padding: 50px 0;
+  margin: 0 auto;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    margin: 0 5%;
+    display: block;
+  }
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+.step {
+  width: 300px;
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+
+.step-text {
+  padding-top: 15px;
+}
+
+.step-img1,
+.step-img2,
+.step-img3 {
+  width: 280px;
+  height: 150px;
+}
+
+.step-img1 {
+  background-image: url(img/flow01.png);
+  background-size: 280px 150px;
+}
+
+.step-img2 {
+  background-image: url(img/flow02.png);
+  background-size: 280px 150px;
+}
+
+.step-img3 {
+  background-image: url(img/flow03.png);
+  background-size: 280px 150px;
+}
+
+footer {
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+.step:nth-child(n + 2) {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .step:nth-child(n + 2) {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .step {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .step-img1,
+  .step-img2,
+  .step-img3 {
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+  }
+}

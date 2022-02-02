@@ -13,6 +13,8 @@
 .step p:nth-child(1) {
   width: 45px;
   position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .headline {
@@ -44,6 +46,7 @@ h3 {
   width: 300px;
   background-color: #f7f7f7;
   padding: 10px;
+  position: relative;
 }
 
 .step-text {
